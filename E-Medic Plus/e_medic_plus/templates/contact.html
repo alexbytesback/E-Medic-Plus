@@ -1,0 +1,73 @@
+<!--This section is coded by Salina Kunwar, we're importing the navigtion bar (navigation.html) on this section-->
+{% extends 'navigationbar.html' %}
+{% load static %}
+{% block body %}
+<style>
+.mydivstyle:hover{
+    box-shadow:0 0 15px 0 rgba(0,0,0,0.3);
+    border-radius: 15px;
+    transform: translateY(-20px)
+    }
+</style>
+
+<div class="container" style="margin-top:50px">
+
+<h2 class="text-center">Contact Information</h2>
+<h5 class="align-content-center">Your thoughts, ideas, and concerns matter to us. We encourage you to share your experiences, offer insights, or seek assistance. Your valuable input drives our commitment to providing the finest healthcare experience as much possible.</h5>
+<br><br>
+<div class="row mt-5 text-center">
+    <div class="col-lg-3 col-sm-6 mydivstyle">
+        <h4><i class="fa fa-phone-volume"></i>Phone</h4>
+        <p class="mt-3 font-weight-bold"><a href="tel:+977 9865144539">+977 9865144539</a></p>
+    </div>
+
+        <div class="col-lg-3 col-sm-6 mydivstyle">
+            <h4><i class="fa fa-envelope"></i> Email</h4>
+            <p class="mt-3 font-weight-bold"><a href="mailto:emedicplus@gmail.com">emedicplus@gmail.com</a></p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mydivstyle">
+            <h4><i class="fas fa-address-card"></i> Office Address</h4>
+            <p class="mt-3 font-weight-bold"><a href="https://maps.google.com/maps?q=Kathmandu+Nepal">Kathmandu, Nepal</a></p>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mydivstyle">
+            <h4><i class="fas fa-address-card"></i> Office Hours</h4>
+            <p class="mt-3 font-weight-bold text-primary">10:00 AM to 6:00 PM</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="container" style="margin-top:30px">
+
+            <div class="container text-center">
+                <h2 class="mt-5">Send Us Your Feedback</h2>
+                <p class="mt-3">
+                    <h5>We value your feedback. Use the email below to share your thoughts, suggestions, or any issues you may have encountered. We appreciate your input as it helps us improve our services.</h5>
+                </p>
+                <div class="col-lg-3 col-sm-6 mydivstyle mx-auto">
+                    <h4><i class="fa fa-envelope"></i> Email</h4>
+                    <p class="mt-3 font-weight-bold"><a href="mailto:emedicplus@gmail.com">emedicplus@gmail.com</a></p>
+                </div>
+            </div>
+            
+        <br>
+        <br>
+        <br>
+    <footer class="text-center">
+        <p>Thank you for choosing E-Medic Plus. We look forward to hearing from you!</p>
+            <span>&copy; 2023 Emedic-Plus </span>
+        </body>
+    </footer>
+</body>
+</html>
+
+
+
+</div>
+</div>
+{% endblock %}

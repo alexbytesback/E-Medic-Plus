@@ -1,0 +1,30 @@
+<!--This section is coded by Salina Kunwar, we're importing the navigtion bar (navigation.html) on this section-->
+{% extends 'navigationbar.html' %}
+{% load static %}
+{% block body %}
+<div class="container" style="margin-top:50px">
+
+<h2 class="text-center">Admin Dashboard</h2>
+<br><br><br><br><br>
+<div class="row">
+    <div class="col-sm-4 text-center">
+        <h2 style="color: #0074d9;">{{d}}</h2> <!-- Blue -->
+        <a href="{% url 'view_doctor' %}" style="color: #39cccc;">Doctors <!-- Aqua -->
+        <hr class="rounded"></a>
+    </div>
+
+    <div class="col-sm-4 text-center">
+        <h2 style="color: #0074d9;">{{p}}</h2> <!-- Blue -->
+        <a href="{% url 'view_doctor' %}" style="color: #39cccc;">Patients<!-- Aqua -->
+        <hr class="rounded"></a>
+    </div>
+
+    <div class="col-sm-4 text-center">
+        <h2 style="color: #0074d9;">{{a}}</h2> <!-- Blue -->
+        <a href="{% url 'view_doctor' %}" style="color: #39cccc;">Appointments</a> <!-- Aqua -->
+        <hr class="rounded"></a>
+    </div>
+</div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,43 @@
+<!--This section is coded by Salina Kunwar, we're importing the navigtion bar (navigation.html) on this section-->
+{% extends 'navigationbar.html' %}
+{% load static %}
+{% block body %}
+<div class="container" style="margin-top:50px">
+
+<div class="row">
+    <div class="col-sm-4 text-center">
+    <img src="{% static 'images/about.jpeg'%}" width="300" heigh="200" class="img-responsive">
+</div>
+<div class="col-sm-8 font-weight-bold mt-5">
+    <h2>About E-Medic Plus</h1>
+    <p>Welcome to E-Medic Plus, your innovative solution for streamlined healthcare access. We're passionate about transforming the way you connect with specialized doctors, making your healthcare journey more convenient, efficient, and satisfying.</p>
+    <br>
+    <h2>Our Vision</h2>
+    <p>In today's fast-paced world, accessing quality healthcare services has become a challenge. At E-Medic Plus, we envisioned a future where everyone has timely access to the medical care they need. Our vision is to revolutionize the traditional process of booking doctor appointments by leveraging the convenience and accessibility of the digital world.</p>
+    <br>
+    <h2>Who We Are</h2>
+    <p>E-Medic Plus is more than just a web application, it's a commitment to enhancing your healthcare experience. We are a team of dedicated developers, healthcare enthusiasts, and tech-savvy professionals who came together with one goal in mind: to make quality healthcare accessible to all.</p>
+    <br>
+    <h2>Why E-Medic Plus</h2>
+    <ul>
+        <li><strong>Streamlined Appointments:</strong> Say goodbye to long queues and tedious paperwork at overcrowded hospitals. E-Medic Plus simplifies the process, saving your valuable time and reducing unnecessary hassle.</li>
+        <li><strong>Personalized Care:</strong> We empower you to find the most suitable doctor for your specific needs. Our comprehensive directory of specialized doctors ensures you can make informed decisions about your healthcare provider.</li>
+        <li><strong>Direct Communication:</strong> With E-Medic Plus, you can communicate directly with your chosen healthcare providers. Through secure messaging, you can discuss symptoms, seek clarifications, and share medical reports, fostering trust and understanding.</li>
+        <li><strong>Community Well-being:</strong> We're here to provide immediate medical attention to those who need it. By offering a centralized platform for doctor appointments, we contribute not only to individual healthcare experiences but also to the overall well-being of our community.</li>
+    </ul>
+    <br>
+    <h2>Our Mission</h2>
+    <p>E-Medic Plus is on a mission to provide accessible and efficient healthcare services to individuals in need. We believe that technology can bridge the gap between patients and healthcare providers, and our web application is a step towards achieving this mission.</p>
+    <br>
+    <footer class="text-center">
+        <p>Thank you for choosing E-Medic Plus. We look forward to hearing from you!</p>
+            <span>&copy; 2023 Emedic-Plus </span>
+            <br>
+            Created by Salina Kunwar & Prashant Koirala
+            021-378 & 021-374 
+        </body>
+    </footer>
+
+</div>
+
+{% endblock %}
