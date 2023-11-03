@@ -80,6 +80,11 @@ E-Medic Plus is built using a combination of technologies and frameworks to ensu
 
 ## HOW TO RUN THIS PROJECT
 - Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
+- Download This Project Zip Folder and Extract it
+  
+- Move to project folder in Terminal. Then run following Commands :
+  
+
 - Open Terminal and Execute Following Commands :
 ```
 pip install django==3.0.5
@@ -90,8 +95,7 @@ or you can just run:
 pip3 install -r requirements.txt
 
 ```
-- Download This Project Zip Folder and Extract it
-- Move to project folder in Terminal. Then run following Commands :
+
 ```
 py manage.py makemigrations
 py manage.py migrate
