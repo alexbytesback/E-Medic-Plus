@@ -1,0 +1,14 @@
+
+{
+    "builds": [{
+        "src": "E-Medic Plus/wsgi.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "E-Medic Plus/wsgi.py"
+        }
+    ]
+}
