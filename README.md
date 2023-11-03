@@ -85,6 +85,10 @@ E-Medic Plus is built using a combination of technologies and frameworks to ensu
 pip install django==3.0.5
 pip install django-widget-tweaks
 pip install xhtml2pdf
+
+or you can just run:
+pip3 install -r requirements.txt
+
 ```
 - Download This Project Zip Folder and Extract it
 - Move to project folder in Terminal. Then run following Commands :
